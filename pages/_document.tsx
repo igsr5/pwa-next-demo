@@ -7,7 +7,15 @@ class MyDocument extends Document {
         <Head>
           <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href="/icon.png"></link>
-          <meta name="theme-color" content="#fff" />
+          <meta
+            name="viewport"
+            content="initial-scale=1, viewport-fit=cover, width=device-width"
+          ></meta>
+          <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+          <meta
+            name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent"
+          ></meta>
         </Head>
         <body>
           <Main />
