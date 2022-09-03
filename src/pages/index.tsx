@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import { css } from "@emotion/react";
 import Head from "next/head";
 import Image from "next/image";
@@ -20,6 +21,8 @@ const Home: NextPage = () => (
     >
       emotion test
     </p>
+
+    <Link href="/map">to map</Link>
 
     <main className={styles.main}>
       <h1 className={styles.title}>
